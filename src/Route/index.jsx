@@ -17,9 +17,14 @@ import {
     OtherRoutes,
     TableRoutes,
     FormElementRoutes,
-    ReadyUseRoutes
+    ReadyUseRoutes,
+    HomeRoutes
 } from "@/Route/AuthRoutes";
 import Layout from "@/Layout";
+
+// HomeRoutes
+const Home = React.lazy(() => import("@/Pages/Home"));
+
 
 // DashboardRoutes
 const Ecommerce = React.lazy(() => import("@/Pages/Dashboard/Ecommerce"));
@@ -224,8 +229,12 @@ const Routes = () => {
     let element = [
         {
             path: "/",
-            element: <Maintenance />,
+            element: <Layout />,
             children: [
+
+                // HomeRoutes
+                { path: HomeRoutes.HOME_PAGE, element: <Home /> },
+
                 // IndependentRoutes
                 { path: IndependentRoutes.WIDGETS_PAGE, element: <Widget /> },
 

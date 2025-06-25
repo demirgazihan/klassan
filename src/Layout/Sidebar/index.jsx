@@ -1,15 +1,15 @@
 import Scrollbar from "simplebar-react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import MenuItem from "./MenuItem";
 import { sidebarConfig } from "../../Data/Sidebar/sidebar";
 
-const Sidebar = ({sidebarOpen, setIsSidebarOpen}) => {
+const Sidebar = ({ sidebarOpen, setIsSidebarOpen }) => {
     return (
-        <nav className={`vertical-sidebar ${sidebarOpen ? "semi-nav" : ""}`}>
+        <nav className={`horizontal-sidebar ${sidebarOpen ? "semi-nav" : ""}`}>
             <div className="app-logo">
                 <Link className="logo d-inline-block" to="/dashboard/ecommerce">
                     {/* <img src="/assets/images/logo/ra-white.png" alt="#" className="light-logo"/> */}
-                    <img src="/assets/images/logo/1.png" alt="#" className="dark-logo"/>
+                    <img src="/assets/images/logo/1.png" alt="#" className="dark-logo" />
                 </Link>
                 <span
                     className="bg-light-light toggle-semi-nav"
@@ -28,7 +28,7 @@ const Sidebar = ({sidebarOpen, setIsSidebarOpen}) => {
                 </ul>
             </Scrollbar>
             <div className="menu-navs">
-                <span className="menu-previous"><i className="ti ti-chevron-left"/></span>
+                <span className="menu-previous"><i className="ti ti-chevron-left" /></span>
                 <span className="menu-next"><i className="ti ti-chevron-right"></i></span>
             </div>
         </nav>

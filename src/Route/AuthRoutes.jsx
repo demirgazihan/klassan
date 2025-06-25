@@ -1,7 +1,9 @@
 const IndependentRoutes = {
     WIDGETS_PAGE: "/widgets",
 }
-
+const HomeRoutes = {
+    HOME_PAGE: "/home-page"
+}
 const DashboardRoutes = {
     MAIN_PAGE: "/",
     ECOMMERCE_PAGE: "/dashboard/ecommerce",
@@ -13,7 +15,7 @@ const DashboardRoutes = {
 const AppsRoutes = {
     CALENDAR_PAGE: "/apps/calendar",
     PROFILE_PAGE: "/apps/profile-page/profile",
-   SETTING_PAGE: "/apps/profile-page/setting",
+    SETTING_PAGE: "/apps/profile-page/setting",
     PROJECTS_PAGE: "/apps/e-shop/projects-page/projects",
     PROJECTS_DETAILS_PAGE: "/apps/e-shop/projects-page/project-details",
     TODO_PAGE: '/apps/todo',
@@ -49,57 +51,57 @@ const AppsRoutes = {
 }
 
 const UiKitRoutes = {
-    CHEATSHEET_PAGE:"/ui-kits/cheatsheet",
-    ALERT_PAGE:"/ui-kits/alert",
-    BADGE_PAGE:"/ui-kits/badge",
-    BUTTON_PAGE:"/ui-kits/button",
-    CARD_PAGE:"/ui-kits/card",
-    DROPDOWN_PAGE:"/ui-kits/dropdown",
-    GRID_PAGE:"/ui-kits/grid",
-    AVATAR_PAGE:"/ui-kits/avtar",
-    TAB_PAGE:"/ui-kits/tabs",
-    ACCORDION_PAGE:"/ui-kits/accordions",
-    PROGRESS_PAGE:"/ui-kits/progress",
-    NOTIFICATION_PAGE:"/ui-kits/notification",
-    LIST_PAGE:"/ui-kits/list",
-    HELPER_CLASSES_PAGE:"/ui-kits/helper-classes",
-    BACKGROUND_PAGE:"/ui-kits/background",
-    DIVIDER_PAGE:"/ui-kits/divider",
-    RIBBONS_PAGE:"/ui-kits/ribbons",
-    EDITOR_PAGE:"/ui-kits/editor",
-    COLLAPSE_PAGE:"/ui-kits/collapse",
-    FOOTER_PAGE:"/ui-kits/footer",
-    SHADOW_PAGE:"/ui-kits/shadow",
-    WRAPPER_PAGE:"/ui-kits/wrapper",
-    BULLET_PAGE:"/ui-kits/bullet",
-    PLACEHOLDER_PAGE:"/ui-kits/placeholder",
-    ALIGNMENT_PAGE:"/ui-kits/alignment"
+    CHEATSHEET_PAGE: "/ui-kits/cheatsheet",
+    ALERT_PAGE: "/ui-kits/alert",
+    BADGE_PAGE: "/ui-kits/badge",
+    BUTTON_PAGE: "/ui-kits/button",
+    CARD_PAGE: "/ui-kits/card",
+    DROPDOWN_PAGE: "/ui-kits/dropdown",
+    GRID_PAGE: "/ui-kits/grid",
+    AVATAR_PAGE: "/ui-kits/avtar",
+    TAB_PAGE: "/ui-kits/tabs",
+    ACCORDION_PAGE: "/ui-kits/accordions",
+    PROGRESS_PAGE: "/ui-kits/progress",
+    NOTIFICATION_PAGE: "/ui-kits/notification",
+    LIST_PAGE: "/ui-kits/list",
+    HELPER_CLASSES_PAGE: "/ui-kits/helper-classes",
+    BACKGROUND_PAGE: "/ui-kits/background",
+    DIVIDER_PAGE: "/ui-kits/divider",
+    RIBBONS_PAGE: "/ui-kits/ribbons",
+    EDITOR_PAGE: "/ui-kits/editor",
+    COLLAPSE_PAGE: "/ui-kits/collapse",
+    FOOTER_PAGE: "/ui-kits/footer",
+    SHADOW_PAGE: "/ui-kits/shadow",
+    WRAPPER_PAGE: "/ui-kits/wrapper",
+    BULLET_PAGE: "/ui-kits/bullet",
+    PLACEHOLDER_PAGE: "/ui-kits/placeholder",
+    ALIGNMENT_PAGE: "/ui-kits/alignment"
 };
 
 const AdvanceUiRoutes = {
-    MODAL_PAGE:"/advance-ui/modal",
-    OFF_CANVAS_PAGE:"/advance-ui/offcanvas",
-    SWEETALERT_PAGE:"/advance-ui/sweetalert",
-    SCROLLBAR_PAGE:"/advance-ui/scrollbar",
-    SPINNER_PAGE:"/advance-ui/spinner",
-    ANIMATION_PAGE:"/advance-ui/animation",
-    VIDEO_EMBED_PAGE:"/advance-ui/video-embed",
-    TOUR_PAGE:"/advance-ui/tour",
-    SLIDER_PAGE:"/advance-ui/slider",
-    BOOTSTRAP_SLIDER_PAGE:"/advance-ui/bootstrap-slider",
-    SCROLLSPY_PAGE:"/advance-ui/scrollspy",
-    TOOLTIP_POPOVERS_PAGE:"/advance-ui/tooltip-popovers",
-    RATINGS_PAGE:"/advance-ui/ratings",
-    PRISMJS_PAGE:"/advance-ui/prismjs",
-    COUNT_DOWN_PAGE:"/advance-ui/count-down",
-    COUNT_UP_PAGE:"/advance-ui/count-up",
-    DRAGGABLE_PAGE:"/advance-ui/draggable",
-    TREE_VIEW_PAGE:"/advance-ui/tree-view",
-    BLOG_UI_PAGE:"/advance-ui/block-ui",
+    MODAL_PAGE: "/advance-ui/modal",
+    OFF_CANVAS_PAGE: "/advance-ui/offcanvas",
+    SWEETALERT_PAGE: "/advance-ui/sweetalert",
+    SCROLLBAR_PAGE: "/advance-ui/scrollbar",
+    SPINNER_PAGE: "/advance-ui/spinner",
+    ANIMATION_PAGE: "/advance-ui/animation",
+    VIDEO_EMBED_PAGE: "/advance-ui/video-embed",
+    TOUR_PAGE: "/advance-ui/tour",
+    SLIDER_PAGE: "/advance-ui/slider",
+    BOOTSTRAP_SLIDER_PAGE: "/advance-ui/bootstrap-slider",
+    SCROLLSPY_PAGE: "/advance-ui/scrollspy",
+    TOOLTIP_POPOVERS_PAGE: "/advance-ui/tooltip-popovers",
+    RATINGS_PAGE: "/advance-ui/ratings",
+    PRISMJS_PAGE: "/advance-ui/prismjs",
+    COUNT_DOWN_PAGE: "/advance-ui/count-down",
+    COUNT_UP_PAGE: "/advance-ui/count-up",
+    DRAGGABLE_PAGE: "/advance-ui/draggable",
+    TREE_VIEW_PAGE: "/advance-ui/tree-view",
+    BLOG_UI_PAGE: "/advance-ui/block-ui",
 
 };
 
-const  IconsRoutes = {
+const IconsRoutes = {
     FONT_AWESOME_PAGE: "/icons/fontawesome",
     FLAG_ICONS_PAGE: "/icons/flag-icons",
     TABLER_ICONS_PAGE: "/icons/tabler-icons",
@@ -140,26 +142,26 @@ const apexChartRoutes = {
 }
 
 const AuthRoutes = {
-    AUTH_SIGN_IN : "/auth/sign-in",
-    AUTH_SIGN_IN_IMG : "/auth/sign-in-img",
-    AUTH_SIGN_UP : "/auth/sign-up",
-    AUTH_SIGN_UP_IMG : "/auth/sign-up-img",
-    AUTH_PASSWORD_RESET:"/auth/password-reset",
-    AUTH_PASSWORD_RESET_IMG : "/auth/password-reset-img",
-    AUTH_PASSWORD_CREATE : "/auth/password-create",
-    AUTH_PASSWORD_CREATE_IMG : "/auth/password-create-img",
-    AUTH_LOCK_SCREEN : "/auth/lock-screen",
-    AUTH_LOCK_SCREEN_IMG : "/auth/lock-screen-img",
-    AUTH_VERIFICATION : "/auth/two-step-verification",
-    AUTH_VERIFICATION_IMG : "/auth/two-step-verification-img",
+    AUTH_SIGN_IN: "/auth/sign-in",
+    AUTH_SIGN_IN_IMG: "/auth/sign-in-img",
+    AUTH_SIGN_UP: "/auth/sign-up",
+    AUTH_SIGN_UP_IMG: "/auth/sign-up-img",
+    AUTH_PASSWORD_RESET: "/auth/password-reset",
+    AUTH_PASSWORD_RESET_IMG: "/auth/password-reset-img",
+    AUTH_PASSWORD_CREATE: "/auth/password-create",
+    AUTH_PASSWORD_CREATE_IMG: "/auth/password-create-img",
+    AUTH_LOCK_SCREEN: "/auth/lock-screen",
+    AUTH_LOCK_SCREEN_IMG: "/auth/lock-screen-img",
+    AUTH_VERIFICATION: "/auth/two-step-verification",
+    AUTH_VERIFICATION_IMG: "/auth/two-step-verification-img",
 }
 
 const ErrorRoutes = {
-    ERROR_400 : "/error/400",
-    ERROR_403 : "/error/403",
-    ERROR_404 : "/error/404",
-    ERROR_500 : "/error/500",
-    ERROR_503 : "/error/503",
+    ERROR_400: "/error/400",
+    ERROR_403: "/error/403",
+    ERROR_404: "/error/404",
+    ERROR_500: "/error/500",
+    ERROR_503: "/error/503",
 }
 const OtherRoutes = {
     OTHER_BLANK_PAGE: "/other/blank",
@@ -167,8 +169,8 @@ const OtherRoutes = {
     OTHER_LANDING_PAGE: "/other/landing-page",
     COMING_SOON: "/other/coming-soon",
     SITE_MAP: "/other/sitemap",
-    PRIVACY_POLICY : "/other/privacy-policy",
-    TERMS_CONDITION:"/other/terms-condition"
+    PRIVACY_POLICY: "/other/privacy-policy",
+    TERMS_CONDITION: "/other/terms-condition"
 }
 const BlankRoutes = {
     ANOTHER_BLANK_PAGE: "/level/blank",
@@ -176,22 +178,22 @@ const BlankRoutes = {
 }
 
 const TableRoutes = {
-    BASIC_TABLE : '/table/basic-table',
-    DATA_TABLE : '/table/data-table',
-    LIST_JS_TABLE : '/table/listjs-table',
-    ADVANCE_TABLE : '/table/advance-table',
+    BASIC_TABLE: '/table/basic-table',
+    DATA_TABLE: '/table/data-table',
+    LIST_JS_TABLE: '/table/listjs-table',
+    ADVANCE_TABLE: '/table/advance-table',
 }
 
 const FormElementRoutes = {
-    FORM_VALIDATION : '/form-elements/form-validation',
-    BASE_INPUT : '/form-elements/base-input',
-    CHECKBOX_RADIO : '/form-elements/checkbox-radio',
-    INPUT_GROUPS : '/form-elements/input-group',
-    INPUT_MASKS : '/form-elements/input-mask',
-    FLOATING_LABEL : '/form-elements/floating-label',
-    DATE_TIME_PICKER : '/form-elements/date-time-picker',
-    TOUCH_SPINE : '/form-elements/touch-spine',
-    FORM_SELECT : '/form-elements/form-select',
+    FORM_VALIDATION: '/form-elements/form-validation',
+    BASE_INPUT: '/form-elements/base-input',
+    CHECKBOX_RADIO: '/form-elements/checkbox-radio',
+    INPUT_GROUPS: '/form-elements/input-group',
+    INPUT_MASKS: '/form-elements/input-mask',
+    FLOATING_LABEL: '/form-elements/floating-label',
+    DATE_TIME_PICKER: '/form-elements/date-time-picker',
+    TOUCH_SPINE: '/form-elements/touch-spine',
+    FORM_SELECT: '/form-elements/form-select',
     SWITCH: '/form-elements/switch',
     RANGE_SLIDER: '/form-elements/range-slider',
     TYPEAHEAD: '/form-elements/typeahead',
@@ -203,11 +205,11 @@ const FormElementRoutes = {
 }
 
 const ReadyUseRoutes = {
-    READY_FORM_WIZARDS : "/ready-to-use/form-wizards",
+    READY_FORM_WIZARDS: "/ready-to-use/form-wizards",
     READY_FORM_WIZARDS_1: "/ready-to-use/form-wizards-1",
     READY_FORM_WIZARDS_2: "/ready-to-use/form-wizards-2",
     READY_USE_FORM: "/ready-to-use/ready-form",
-    READY_USE_TABLE:"/ready-to-use/ready-table",
+    READY_USE_TABLE: "/ready-to-use/ready-table",
 }
 
 export {
@@ -227,5 +229,6 @@ export {
     OtherRoutes,
     TableRoutes,
     FormElementRoutes,
-    ReadyUseRoutes
+    ReadyUseRoutes,
+    HomeRoutes
 }

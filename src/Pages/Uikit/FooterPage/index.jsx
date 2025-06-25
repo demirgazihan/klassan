@@ -1,6 +1,6 @@
-import React, {useEffect} from 'react';
+import React, { useEffect } from 'react';
 import Prism from "prismjs";
-import {Card, CardBody, CardHeader, Col, Container, Row} from "reactstrap";
+import { Card, CardBody, CardHeader, Col, Container, Row } from "reactstrap";
 
 const FooterPage = () => {
     useEffect(() => {
@@ -16,9 +16,9 @@ const FooterPage = () => {
                         <ul className="app-line-breadcrumbs mb-3">
                             <li className="">
                                 <a href="#" className="f-s-14 f-w-500">
-									<span>
-									  <i className="ph-duotone  ph-briefcase f-s-16"></i> Ui kits
-									</span>
+                                    <span>
+                                        <i className="ph-duotone  ph-briefcase f-s-16"></i> Ui kits
+                                    </span>
                                 </a>
                             </li>
                             <li className="active">
@@ -33,7 +33,7 @@ const FooterPage = () => {
                             <CardHeader className="code-header">
                                 <h5>Basic Footer</h5>
                                 <a data-bs-toggle="collapse" href="#basicfooterExample" aria-expanded="false"
-                                   aria-controls="basicfooterExample">
+                                    aria-controls="basicfooterExample">
                                     <i className="ti ti-code source" data-source="basicfooter"></i>
                                 </a>
                             </CardHeader>
@@ -63,8 +63,8 @@ const FooterPage = () => {
                                 </footer>
 
                                 <pre className="basicfooter collapse mt-3" id="basicfooterExample">
-                                            <code className="language-html">
-                                                {`
+                                    <code className="language-html">
+                                        {`
  <footer>
   <div class="container-fluid">
     <div class="row align-items-center">
@@ -86,8 +86,8 @@ const FooterPage = () => {
 
                                                 `}
 
-                                            </code>
-                                        </pre>
+                                    </code>
+                                </pre>
 
                             </CardBody>
                         </Card>
@@ -98,7 +98,7 @@ const FooterPage = () => {
                                 <h5> Footer Custom</h5>
 
                                 <a data-bs-toggle="collapse" href="#customefooterExample" aria-expanded="false"
-                                   aria-controls="customefooterExample">
+                                    aria-controls="customefooterExample">
                                     <i className="ti ti-code source" data-source="customefooter"></i>
                                 </a>
                             </CardHeader>
@@ -147,8 +147,8 @@ const FooterPage = () => {
                                     </Container>
                                 </footer>
                                 <pre className="customefooter collapse mt-3" id="customefooterExample">
-                                            <code className="language-html">
-                                                {`
+                                    <code className="language-html">
+                                        {`
         <footer>
   <div class="container-fluid">
     <div class="row align-items-center">
@@ -175,8 +175,8 @@ const FooterPage = () => {
 
                                                 `}
 
-                                            </code>
-                                        </pre>
+                                    </code>
+                                </pre>
                             </CardBody>
                         </Card>
                     </Col>
@@ -185,7 +185,7 @@ const FooterPage = () => {
                             <CardHeader className="code-header">
                                 <h5>Footer variat</h5>
                                 <a data-bs-toggle="collapse" href="#variatfooterExample" aria-expanded="false"
-                                   aria-controls="variatfooterExample">
+                                    aria-controls="variatfooterExample">
                                     <i className="ti ti-code source" data-source="variatfooter"></i>
                                 </a>
 
@@ -407,8 +407,8 @@ const FooterPage = () => {
                                     </footer>
                                 </div>
                                 <pre className="variatfooter collapse mt-3" id="variatfooterExample">
-                                            <code className="language-html">
-                                                {`
+                                    <code className="language-html">
+                                        {`
     <div class="mb-3">
   <footer class="footer-primary">
     <div class="container-fluid">
@@ -454,20 +454,20 @@ const FooterPage = () => {
 </footer>
 
                                                 `}
-                                                       </code>
-                                        </pre>
+                                    </code>
+                                </pre>
 
 
                             </CardBody>
                         </Card>
                     </Col>
                     <Col xl={12}>
-              <Card>
+                        <Card>
                             <CardHeader className="code-header">
                                 <h5> Footer Custom</h5>
 
                                 <a data-bs-toggle="collapse" href="#mainfooterExample" aria-expanded="false"
-                                   aria-controls="mainfooterExample">
+                                    aria-controls="mainfooterExample">
                                     <i className="ti ti-code source" data-source="mainfooterfooter"></i>
                                 </a>
                             </CardHeader>
@@ -479,7 +479,7 @@ const FooterPage = () => {
                                                 <div className="footer-first">
                                                     <div className="footer-title">
                                                         <img src="../assets/images/logo/1.png" className="w-140"
-                                                             alt=""/>
+                                                            alt="" />
                                                     </div>
                                                     <div className="mt-3">
                                                         <p>Here you can use rows and columns to organize your
@@ -489,19 +489,19 @@ const FooterPage = () => {
                                                     </div>
                                                     <div className="social-btn d-flex mt-3">
                                                         <button type="button"
-                                                                className="btn btn-facebook icon-btn b-r-22"><i
-                                                            className="ti ti-brand-facebook text-white"></i>
+                                                            className="btn btn-facebook icon-btn b-r-22"><i
+                                                                className="ti ti-brand-facebook text-white"></i>
                                                         </button>
                                                         <button type="button"
-                                                                className="btn btn-twitter icon-btn b-r-22 mx-3"><i
-                                                            className="ti ti-brand-twitter text-white"></i></button>
+                                                            className="btn btn-twitter icon-btn b-r-22 mx-3"><i
+                                                                className="ti ti-brand-twitter text-white"></i></button>
                                                         <button type="button"
-                                                                className="btn btn-linkedin icon-btn b-r-22 "><i
-                                                            className="ti ti-brand-linkedin text-white"></i>
+                                                            className="btn btn-linkedin icon-btn b-r-22 "><i
+                                                                className="ti ti-brand-linkedin text-white"></i>
                                                         </button>
                                                         <button type="button"
-                                                                className="btn btn-github icon-btn b-r-22 mx-3"><i
-                                                            className="ti ti-brand-github text-white"></i></button>
+                                                            className="btn btn-github icon-btn b-r-22 mx-3"><i
+                                                                className="ti ti-brand-github text-white"></i></button>
                                                     </div>
                                                 </div>
 
@@ -517,18 +517,18 @@ const FooterPage = () => {
                                                         <ul>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">Angular</a>
+                                                                    className="f-w-500 f-s-15 text-dark">Angular</a>
                                                             </li>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">React</a>
+                                                                    className="f-w-500 f-s-15 text-dark">React</a>
                                                             </li>
                                                             <li className="mb-3">
                                                                 <a href="#" className="f-w-500 f-s-15 text-dark">Vue</a>
                                                             </li>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">Laravel</a>
+                                                                    className="f-w-500 f-s-15 text-dark">Laravel</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -545,19 +545,19 @@ const FooterPage = () => {
                                                         <ul>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">Pricing</a>
+                                                                    className="f-w-500 f-s-15 text-dark">Pricing</a>
                                                             </li>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">Settings</a>
+                                                                    className="f-w-500 f-s-15 text-dark">Settings</a>
                                                             </li>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">Orders</a>
+                                                                    className="f-w-500 f-s-15 text-dark">Orders</a>
                                                             </li>
                                                             <li className="mb-3">
                                                                 <a href="#"
-                                                                   className="f-w-500 f-s-15 text-dark">Help</a>
+                                                                    className="f-w-500 f-s-15 text-dark">Help</a>
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -597,8 +597,8 @@ const FooterPage = () => {
                                     </Container>
                                 </footer>
                                 <pre className="mainfooterfooter collapse mt-3" id="mainfooterExample">
-                                            <code className="language-html">
-                                                {`
+                                    <code className="language-html">
+                                        {`
     <footer>
   <div class="container-fluid">
     <div class="row">
@@ -672,8 +672,8 @@ const FooterPage = () => {
 </footer>
 
                                                 `}
-                                            </code>
-                                        </pre>
+                                    </code>
+                                </pre>
                             </CardBody>
                         </Card>
                     </Col>
