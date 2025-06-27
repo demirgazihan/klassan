@@ -199,6 +199,45 @@ const index = () => {
                         </CardBody>
                     </Card>
                 </Col>
+                <Col xs={12} style={{ padding: 0 }}>
+                    <Card className='bg-secondary' style={{ borderRadius: "0", paddingLeft: "3rem" }}>
+                        <CardBody>
+                            <Row>
+                                <Col xs={12}>
+                                    <span style={{ fontSize: "30px", fontWeight: "bold" }}>
+                                        Klassan Mobilya
+                                    </span>
+                                </Col>
+                                <Col xs={12} style={{ marginTop: "1.5rem" }}>
+                                    <span style={{ fontSize: "19px" }}>
+                                        www.klassanmobilya.com
+                                    </span>
+                                </Col>
+                                <Col xs={12} style={{ marginTop: "0.5rem" }}>
+                                    <span style={{ fontSize: "19px" }}>
+                                        Şahintepe, Kozan Cad. D:223, 01250 Sarıçam/Adana
+                                    </span>
+                                </Col>
+                                <Col xs={12} style={{ marginTop: "0.5rem" }}>
+                                    <span style={{ fontSize: "19px" }}>
+                                        0542 797 59 78
+                                    </span>
+                                </Col>
+                                <Col xs={12} >
+                                    <span style={{ fontSize: "19px" }}>
+                                        0554 171 59 78
+                                    </span>
+                                </Col>
+                                <Col xs={12} >
+                                    <span style={{ fontSize: "19px" }}>
+                                        0322 341 05 06
+                                    </span>
+                                </Col>
+
+                            </Row>
+                        </CardBody>
+                    </Card>
+                </Col>
             </Row>
 
         </>
