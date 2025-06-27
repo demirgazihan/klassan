@@ -67,7 +67,7 @@ const index = () => {
                     </div>
                 </Col>
                 <Col xs={12} style={{ padding: 0 }}>
-                    <Card>
+                    <Card style={{ backgroundColor: "#f3f3f2" }}>
                         <div>
                             <div className="fade-s app-arrow" dir="rtl">
                                 <div className="item">
@@ -89,7 +89,7 @@ const index = () => {
                 <Col lg={12} style={{ padding: 0 }}>
                     <Row>
                         <Col xl={12}>
-                            <Card>
+                            <Card style={{ backgroundColor: "#f3f3f2" }}>
                                 <div>
                                     <div className="autoplay-slider app-arrow">
                                         <div className="autoplay-item" style={{ maxWidth: "293px", maxHeight: "195px" }}>
@@ -123,8 +123,8 @@ const index = () => {
                         </Col>
                     </Row>
                 </Col>
-                <Col xs={12}>
-                    <Card >
+                <Col xs={12} style={{ padding: 0 }}>
+                    <Card style={{ backgroundColor: "#f3f3f2" }}>
                         <CardBody >
                             <div className="lazy app-arrow text-center" dir="rtl" >
                                 <div className="lazy-item" style={{ display: "flex", justifyContent: "center" }}>
