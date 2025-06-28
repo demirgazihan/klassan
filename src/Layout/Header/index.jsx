@@ -6,22 +6,21 @@ import {
 } from "reactstrap";
 import HeaderMenu from "../../Layout/Header/HeaderMenu.jsx";
 
-const Header = ({sidebarOpen, setIsSidebarOpen}) => {
+const Header = ({ sidebarOpen, setIsSidebarOpen }) => {
     return (
         <header className="header-main">
             <Container fluid>
-                <Row>
+                <Row className="p-0">
                     <Col xs="6" sm="4" className="d-flex align-items-center header-left p-0">
                         <span
                             className="header-toggle me-3"
                             onClick={() => setIsSidebarOpen(!sidebarOpen)}
                         >
-                          <i className="ph ph-circles-four"></i>
+                            <i className="ph ph-circles-four"></i>
                         </span>
                     </Col>
-
                     <Col xs="6" sm="8" className="d-flex align-items-center justify-content-end header-right p-0">
-                        <HeaderMenu/>
+                        <HeaderMenu />
                     </Col>
                 </Row>
             </Container>

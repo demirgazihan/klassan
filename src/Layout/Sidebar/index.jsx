@@ -7,9 +7,10 @@ const Sidebar = ({ sidebarOpen, setIsSidebarOpen }) => {
     return (
         <nav className={`horizontal-sidebar ${sidebarOpen ? "semi-nav" : ""}`}>
             <div className="app-logo">
-                <Link className="logo d-inline-block" to="/dashboard/ecommerce">
+                <Link className="logo d-inline-block" style={{ fontSize: "1.5rem" }}>
                     {/* <img src="/assets/images/logo/ra-white.png" alt="#" className="light-logo"/> */}
-                    <img src="/assets/images/logo/1.png" alt="#" className="dark-logo" />
+                    {/*<img src="/assets/images/logo/1.png" alt="#" className="dark-logo" />*/}
+                    Klassan®
                 </Link>
                 <span
                     className="bg-light-light toggle-semi-nav"

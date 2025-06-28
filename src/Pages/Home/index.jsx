@@ -3,8 +3,8 @@ import { Card, CardBody, CardHeader, Col, Container, Row, CardFooter } from "rea
 
 const index = () => {
 
-    useEffect(() => {
 
+    useEffect(() => {
         // 7. Autoplay Slider
         $('.autoplay-slider').slick({
             slidesToShow: 4,
@@ -48,15 +48,8 @@ const index = () => {
             slidesToShow: 1,
             rtl: true
         });
-
-
-
-
-
-
-
-
     }, []);
+
     return (
         <>
             <Row>
@@ -64,6 +57,11 @@ const index = () => {
                     <div>
                         <div className="loader_1 text-center" style={{ fontSize: "0.9rem" }}>
                         </div>
+                    </div>
+                </Col>
+                <Col xs={12} className='text-center'>
+                    <div style={{ fontSize: "1.5rem" }}>
+                        Tüm Türkiye için hiçbir ek ücret ödemeden kaliteli ürünlerimizi kapınıza kadar getiriyoruz.
                     </div>
                 </Col>
                 <Col xs={12} style={{ padding: 0 }}>
